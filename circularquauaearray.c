@@ -50,7 +50,7 @@ void display(){//a function used to display the queae
 		int i = front; // else condition to print quauae
 		while(i!=rare){ //condition where u need to visualize well
 			printf("%d ",a[i]);
-			i = (i+1)%n; //jaanu observe the formulae it shows a loop u increase the numbers 0 to n-1. when it reaches n it again points 0
+			i = (i+1)%n; //observe the formulae it shows a loop u increase the numbers 0 to n-1. when it reaches n it again points 0
 		}
 		printf("%d",a[rare]);
 	}
